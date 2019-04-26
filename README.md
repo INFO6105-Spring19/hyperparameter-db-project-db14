@@ -51,26 +51,7 @@ According to 3NF,
 3. Each field of the table has unique name 
 4. Each table has primary key
 
-## Normalization
-According to 1NF,  
-1. There are no repeating groups  
-2. Maintained atomic data values of hyperparameter table is further split into hyperparameter_default and hyperparameter_actual columns 
-3. Each field of the table has unique name
-4. Each table has primary key 
-
-According to 2NF, 
-1. All tables satisfy 1NF 
-2. All non-key attributes are dependent on all parts of primary key. Thus, no partial dependencies 3. There are no calculated data
-4. Each field of the table has unique name 
-5. Each table has primary key 
-
-According to 3NF, 
-1. All tables satisfy 2NF 
-2. All non-key attributes are not dependent on other non-key attributes. Thus, no transitive relationship 
-3. Each field of the table has unique name 
-4. Each table has primary key
-
-##Conclusion
+## Conclusion
 Hyperparameter database is built by running several hyperparameter values on Travel Insurance dataset. Data fetched from the dataset is structured into different tables analyzing the relationships between the values. 
 Using H20 software, for five run times (500, 1000, 1500, 2000, 2500), respective models and its metrics values are generated. Metrics indicate the absolute fit of the model to actual data. Smaller the metrics values, closer we are to finding the line of best fit. Thus, models generated their own set of hyperparameters. Hence, model architecture is defined for storing the hyperparameter values in the database.
 
