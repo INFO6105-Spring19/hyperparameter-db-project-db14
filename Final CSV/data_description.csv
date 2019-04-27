@@ -1,0 +1,12 @@
+data_desc_ID,dataset_ID,column_name,col_datatype
+1,1,Agency,String
+2,1,Agency Type,String
+3,1,Distribution Channel,String
+4,1,Product Name,String
+5,1,Claim,String
+6,1,Duration,int
+7,1,Destination,String
+8,1,Net Sales,float
+9,1,Commision,float
+10,1,Gender,String
+11,1,Age,int
